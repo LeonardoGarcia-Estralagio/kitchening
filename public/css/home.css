@@ -47,34 +47,29 @@
   margin-top: 30px;
 }
 
-.home__main__section--product--image-sticker {
+.home__main__section--product-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.home__main__section--product-image {
+  width: 100%;
+}
+
+.home__main__section--product-sticker {
   position: absolute;
   top: 0px;
   right: 10px;
 }
 
-.home__main__section--product {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.home__main__section--product-box {
-  position: relative;
-  margin-top: 0;
-}
-
 .home__main__section--product-box a {
   position: absolute;
-  top: 15%;
-  right: 0;
+  top: 45%;
+  left: 0;
   width: 100%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 8px;
-}
-
-.home__main__section--product--image {
-  width: 100%;
 }
 
 .home__main__section--product-title {
