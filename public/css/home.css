@@ -28,7 +28,7 @@
 .home__header__nav--menu ul {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 2px;
 }
 
 .home__header__nav--menu ul li {
