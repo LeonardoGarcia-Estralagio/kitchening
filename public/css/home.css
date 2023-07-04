@@ -39,10 +39,6 @@
   padding: 5px;
 }
 
-.home__header__nav--menu ul li:last-child {
-  margin-bottom: 0;
-}
-
 /* MAIN */
 
 .home__main__section--banner {
