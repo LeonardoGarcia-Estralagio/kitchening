@@ -11,6 +11,10 @@ app.get("/", (req, res) =>
   res.sendFile(path.join(__dirname, "views", "home.html"))
 );
 
+app.get("/flex", (req, res) =>
+  res.sendFile(path.join(__dirname, "views", "flex.html"))
+);
+
 app.listen(PORT, () =>
   console.log(`server running in http://localhost:${PORT}`)
 );
