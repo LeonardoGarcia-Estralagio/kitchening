@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchening</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/700da961d8.js" crossorigin="anonymous"></script>
 </head>
@@ -28,8 +33,68 @@
     </header>
     <main class="home__main">
         <div class="home__main__section--banner">
-            <img src="/img/img-banner.jpg" alt="banner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/img/banner/banner.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/banner/banner-2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/banner/banner-3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/img/banner/banner-4.jpg" alt=""></div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
+         <section>
+                <H2>Ensaladas sin guarniciones</H2>
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/img/img-pdto-1.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">ensalada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/img/img-pdto-1.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">ensalada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/img/img-pdto-1.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">ensalada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="/img/img-pdto-1.jpg" alt="">
+                                <div class="card-body">
+                                  <h5 class="card-title">ensalada</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
         <div class="home__main__section--products">
             <article class="home__main__section--product">
                 <div class="home__main__section--product-box">
@@ -55,12 +120,13 @@
                     elit. Perferendis consequatur voluptate libero,
                     vero, laudantium error labore possimus dolorum veritatis cumque hic doloremque perspiciatis deserunt
                     tempore unde cum ut ipsum earum.</p>
-                <a class="home__main__section--product-button"  href="">ver más</a>
+                <a class="home__main__section--product-button" href="">ver más</a>
             </article>
             <article class="home__main__section--product">
                 <div class="home__main__section--product-box">
                     <img class="home__main__section--product-image" src="/img/img-pdto-3.jpg" alt="imagen-producto-3">
-                    <img class="home__main__section--product-sticker" src="/img/img-descuento.png" alt="sticker-descuento">
+                    <img class="home__main__section--product-sticker" src="/img/img-descuento.png"
+                        alt="sticker-descuento">
                     <a href="">AMPLIAR FOTO</a>
                 </div>
                 <h4 class="home__main__section--product-title">Lorem ipsum amet</h4>
@@ -68,7 +134,7 @@
                     elit. Perferendis consequatur voluptate libero,
                     vero, laudantium error labore possimus dolorum veritatis cumque hic doloremque perspiciatis deserunt
                     tempore unde cum ut ipsum earum.</p>
-                <a class="home__main__section--product-button"  href="">ver más</a>
+                <a class="home__main__section--product-button" href="">ver más</a>
             </article>
             <article class="home__main__section--product">
                 <div class="home__main__section--product-box">
@@ -81,7 +147,7 @@
                     elit. Perferendis consequatur voluptate libero,
                     vero, laudantium error labore possimus dolorum veritatis cumque hic doloremque perspiciatis deserunt
                     tempore unde cum ut ipsum earum.</p>
-                <a class="home__main__section--product-button"  href="">ver más</a>
+                <a class="home__main__section--product-button" href="">ver más</a>
             </article>
             <article class="home__main__section--product">
                 <div class="home__main__section--product-box">
@@ -94,12 +160,13 @@
                     elit. Perferendis consequatur voluptate libero,
                     vero, laudantium error labore possimus dolorum veritatis cumque hic doloremque perspiciatis deserunt
                     tempore unde cum ut ipsum earum.</p>
-                <a class="home__main__section--product-button"  href="">ver más</a>
+                <a class="home__main__section--product-button" href="">ver más</a>
             </article>
             <article class="home__main__section--product">
                 <div class="home__main__section--product-box">
                     <img class="home__main__section--product-image" src="/img/img-pdto-3.jpg" alt="imagen-producto-3">
-                    <img class="home__main__section--product-sticker" src="/img/img-descuento.png" alt="sticker-descuento">
+                    <img class="home__main__section--product-sticker" src="/img/img-descuento.png"
+                        alt="sticker-descuento">
                     <a href="">AMPLIAR FOTO</a>
                 </div>
                 <h4 class="home__main__section--product-title">Lorem ipsum amet</h4>
@@ -107,7 +174,7 @@
                     elit. Perferendis consequatur voluptate libero,
                     vero, laudantium error labore possimus dolorum veritatis cumque hic doloremque perspiciatis deserunt
                     tempore unde cum ut ipsum earum.</p>
-                <a class="home__main__section--product-button"  href="">ver más</a>
+                <a class="home__main__section--product-button" href="">ver más</a>
             </article>
         </div>
     </main>
@@ -123,6 +190,12 @@
             </ul>
         </nav>
     </Footer>
+    <!-- <script src="/js/carousel_W3S.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/carouselSwiper.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> -->
 </body>
 
 </html>
