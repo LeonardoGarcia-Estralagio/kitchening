@@ -25,6 +25,11 @@
   border-radius: 5px;
 }
 
+.home__header__a--bars i {
+  position: relative;
+  top: -5px;
+}
+
 .home__header__nav--menu ul {
   display: flex;
   flex-direction: column;
@@ -82,12 +87,12 @@
 
 .home__main__section--product-title {
   margin: 20px 0;
-  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .home__main__section--product-button {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 10px;
   margin: 20px 0;
   background-color: var(--colorGris);
 }
@@ -124,10 +129,6 @@
   .home__header__nav--menu ul li {
     margin-bottom: 20px;
     font-size: 0.9rem;
-  }
-
-  .home__header__nav--menu ul li:last-child {
-    margin-right: 0;
   }
 
   /* MAIN */
